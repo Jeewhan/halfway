@@ -1,0 +1,20 @@
+{
+  "name": "halfway",
+  "version": "1.0.0",
+  "description": "Functional Javascript Library",
+  "main": "halfway.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eclatant/halfway.git"
+  },
+  "keywords": ["functional library"],
+  "author": "jeewhan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Eclatant/halfway/issues"
+  },
+  "homepage": "https://github.com/Eclatant/halfway#readme"
+}
