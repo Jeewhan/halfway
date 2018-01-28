@@ -4,7 +4,7 @@
   "description": "Functional Javascript Library",
   "main": "halfway.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --watch"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,15 @@
   "homepage": "https://github.com/Eclatant/halfway#readme",
   "dependencies": {},
   "devDependencies": {
-    "jest": "^22.1.4"
+    "jest": "^22.1.4",
+    "babel-jest": "^22.1.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    },
+    "moduleFileExtensions": ["js"],
+    "moduleDirectories": ["node_modules"]
   }
 }

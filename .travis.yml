@@ -1,0 +1,15 @@
+language: node_js
+
+node_js:
+  - "lts/*"
+
+notifications:
+ email: false
+
+install:
+  - yarn
+
+script:
+  - eslint src/.
+  - yarn test
+  - yarn build
