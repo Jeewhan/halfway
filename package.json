@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/Eclatant/halfway/issues"
   },
-  "homepage": "https://github.com/Eclatant/halfway#readme"
+  "homepage": "https://github.com/Eclatant/halfway#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^22.1.4"
+  }
 }
