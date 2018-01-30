@@ -1,5 +1,5 @@
 import each from "./each";
 
-const h = { each };
+const H = { each };
 
-export default h;
+export default H;
