@@ -16,16 +16,16 @@ describe(`each`, () => {
     expect(log).toHaveBeenCalledWith(given[2], 2, given);
   });
 
-  it(`{ first: "가", second: "나", third: "다" }`, () => {
+  it(`{one: 1, two: 2, three: 3}`, () => {
     // given
-    const given = { first: "가", second: "나", third: "다" };
+    const given = { one: 1, two: 2, three: 3 };
 
     // when
     each(given, log);
 
     // then
-    expect(log).toHaveBeenCalledWith(given.first, "first", given);
-    expect(log).toHaveBeenCalledWith(given.second, "second", given);
-    expect(log).toHaveBeenCalledWith(given.third, "third", given);
+    expect(log).toHaveBeenCalledWith(given.one, "one", given);
+    expect(log).toHaveBeenCalledWith(given.two, "two", given);
+    expect(log).toHaveBeenCalledWith(given.three, "three", given);
   });
 });
