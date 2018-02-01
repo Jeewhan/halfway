@@ -1,5 +1,6 @@
 import each from "../each";
 
+// http://underscorejs.org/#each
 describe(`each`, () => {
   const log = jest.spyOn(console, `log`);
 

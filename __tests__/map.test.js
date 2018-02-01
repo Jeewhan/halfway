@@ -1,5 +1,6 @@
 import map from "../map";
 
+// http://underscorejs.org/#map
 describe(`map`, () => {
   it(`[1, 2, 3] + num => num * 3`, () => {
     // given
