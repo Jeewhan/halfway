@@ -1,3 +1,5 @@
+const curryr = require("./curryr");
+
 function select(object, propertyName) {
   if (Array.isArray(propertyName)) {
     let i = -1;
@@ -11,4 +13,4 @@ function select(object, propertyName) {
   }
 }
 
-module.exports = select;
+module.exports = curryr(select);
