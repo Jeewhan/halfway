@@ -22,4 +22,4 @@ function reduce(collection, iteratee, memo) {
   return result;
 }
 
-export default reduce;
+module.exports = reduce;

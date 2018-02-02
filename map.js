@@ -15,4 +15,4 @@ function map(collection, mapper) {
   return result;
 }
 
-export default map;
+module.exports = map;

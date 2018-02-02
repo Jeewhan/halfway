@@ -1,8 +1,9 @@
-import each from "./each";
-import map from "./map";
-import reduce from "./reduce";
-import select from "./select";
+const each = require("./each");
+const map = require("./map");
+const reduce = require("./reduce");
+const select = require("./select");
+const contains = require("./contains");
 
-const H = { each, map, reduce, select };
+const H = { each, map, reduce, select, contains };
 
-export default H;
+module.exports = H;
