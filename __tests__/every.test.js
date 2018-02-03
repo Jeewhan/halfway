@@ -4,6 +4,7 @@ import contains from "../contains";
 import go from "../go";
 import first from "../first";
 import select from "../select";
+import _ from "../partial";
 
 describe("every", () => {
   it(`[2, 4, 5] + num % 1 === 0`, () => {
@@ -63,8 +64,8 @@ describe("every", () => {
     const result = go(
       users,
       user_filter(cities, ages, bloods),
-      first,
-      select("name")
+      _(first, _),
+      _(select, _, "name")
     );
 
     // then

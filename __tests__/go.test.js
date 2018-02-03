@@ -3,9 +3,10 @@ import filter from "../filter";
 import select from "../select";
 import first from "../first";
 import contains from "../contains";
+import _ from "../partial";
 
 // https://github.com/joeunha/functional-js-study2/issues/5
-describe(`select`, () => {
+describe(`go`, () => {
   let users;
 
   beforeEach(() => {
@@ -22,6 +23,7 @@ describe(`select`, () => {
       { name: "TH", age: 27, city: "busan", blood: "O" }
     ];
   });
+
   // 성남시민 중에서 27세이면서 O형인 사람의 이름 ('JE')
   it(`users + condition`, () => {
     // given
@@ -30,11 +32,11 @@ describe(`select`, () => {
     // when
     const result = go(
       users,
-      filter(({ city }) => city === "seongnam"),
-      filter(({ age }) => age === 27),
-      filter(({ blood }) => blood === "O"),
-      first,
-      select("name")
+      _(filter, _, ({ city }) => city === "seongnam"),
+      _(filter, _, ({ age }) => age === 27),
+      _(filter, _, ({ blood }) => blood === "O"),
+      _(first, _),
+      _(select, _, "name")
     );
 
     // then
@@ -49,11 +51,11 @@ describe(`select`, () => {
     // when
     const result = go(
       users,
-      filter(({ city }) => contains(["busan", "seoul"], city)),
-      filter(({ age }) => age === 32),
-      filter(({ blood }) => blood === "A"),
-      first,
-      select("name")
+      _(filter, _, ({ city }) => contains(["busan", "seoul"], city)),
+      _(filter, _, ({ age }) => age === 32),
+      _(filter, _, ({ blood }) => blood === "A"),
+      _(first, _),
+      _(select, _, "name")
     );
 
     // then
