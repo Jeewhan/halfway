@@ -1,5 +1,4 @@
 import callr from "../callr";
-import select from "../select";
 
 describe(`callr`, () => {
   it(`[1, 2, 3] + console.log`, () => {

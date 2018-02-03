@@ -6,9 +6,9 @@ function select(object, propertyName) {
 
     while (++i < len) result.push(object[propertyName[i]]);
     return result;
-  } else {
-    return object[propertyName];
   }
+
+  return object[propertyName];
 }
 
 module.exports = select;

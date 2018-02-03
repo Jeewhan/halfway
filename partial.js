@@ -1,10 +1,12 @@
 function _(func, ...args) {
-  const parts = args.slice();
+  const parts = [...args];
 
   return (...args) => {
-    const rest = args.slice();
+    const rest = [...args];
+    const len = parts.length;
+    let i = -1;
 
-    for (let i in parts) if (parts[i] === _) parts[i] = rest.shift();
+    while (++i < len) if (parts[i] === _) parts[i] = rest.shift();
 
     return func(...parts);
   };

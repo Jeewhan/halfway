@@ -1,10 +1,11 @@
 {
   "name": "halfway",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "Functional Javascript Library",
   "main": "halfway.js",
   "scripts": {
-    "test": "jest --watch"
+    "test": "jest --watch",
+    "lint": "./node_modules/.bin/eslint ."
   },
   "repository": {
     "type": "git",
@@ -19,9 +20,15 @@
   "homepage": "https://github.com/Eclatant/halfway#readme",
   "dependencies": {},
   "devDependencies": {
-    "jest": "^22.1.4",
     "babel-jest": "^22.1.0",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0"
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "eslint": "^4.17.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "jest": "^22.1.4",
+    "prettier": "^1.10.2"
   },
   "jest": {
     "transform": {
