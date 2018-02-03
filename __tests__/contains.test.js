@@ -11,7 +11,7 @@ describe(`contains`, () => {
     const result = contains(given, findValue);
 
     // then
-    expect(result).toEqual(true);
+    expect(result).toBe(true);
   });
 
   it(`[1, 2, 3] + find 1 + fromIndex 0`, () => {
@@ -24,7 +24,7 @@ describe(`contains`, () => {
     const result = contains(given, findValue, fromIndex);
 
     // then
-    expect(result).toEqual(true);
+    expect(result).toBe(true);
   });
 
   it(`[1, 2, 3] + find 1 + fromIndex 1`, () => {
@@ -37,6 +37,6 @@ describe(`contains`, () => {
     const result = contains(given, findValue, fromIndex);
 
     // then
-    expect(result).toEqual(false);
+    expect(result).toBe(false);
   });
 });

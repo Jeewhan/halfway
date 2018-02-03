@@ -11,7 +11,7 @@ describe(`reduce`, () => {
     const result = reduce(given, (result, value) => result + value, initValue);
 
     // then
-    expect(result).toEqual(6);
+    expect(result).toBe(6);
   });
 
   // https://lodash.com/docs/4.17.4#reduce

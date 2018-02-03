@@ -16,7 +16,7 @@ describe("every", () => {
     const result = every(given, func);
 
     // then
-    expect(result).toEqual(true);
+    expect(result).toBe(true);
   });
 
   // http://underscorejs.org/#every
@@ -29,7 +29,7 @@ describe("every", () => {
     const result = every(given, func);
 
     // then
-    expect(result).toEqual(false);
+    expect(result).toBe(false);
   });
 
   // https://github.com/joeunha/functional-js-study2/issues/5

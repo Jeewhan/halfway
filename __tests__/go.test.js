@@ -40,7 +40,7 @@ describe(`go`, () => {
     );
 
     // then
-    expect(result).toEqual("JE");
+    expect(result).toBe("JE");
   });
 
   // 부산과 서울시민 중에서 32세이면서 A형인 사람의 이름 ('ID')
@@ -59,6 +59,6 @@ describe(`go`, () => {
     );
 
     // then
-    expect(result).toEqual("ID");
+    expect(result).toBe("ID");
   });
 });

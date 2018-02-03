@@ -12,7 +12,7 @@ describe(`partail`, () => {
     const result = preparation("name");
 
     // then
-    expect(result).toEqual("JM");
+    expect(result).toBe("JM");
   });
 
   it(`object + _, ["name", "age"]`, () => {

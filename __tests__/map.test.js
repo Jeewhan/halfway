@@ -12,6 +12,7 @@ describe(`map`, () => {
 
     // then
     // toEqual()은 동등성을 확인하는 반면에 toBe()는 정확히 같은 객체인지를 확인해 줍니다.
+    // https://facebook.github.io/jest/docs/en/using-matchers.html
     expect(result).toEqual([3, 6, 9]);
   });
 
@@ -24,7 +25,6 @@ describe(`map`, () => {
     const result = map(given, func);
 
     // then
-    // toEqual()은 동등성을 확인하는 반면에 toBe()는 정확히 같은 객체인지를 확인해 줍니다.
     expect(result).toEqual([3, 6, 9]);
   });
 });

@@ -10,7 +10,7 @@ describe(`select`, () => {
     const result = select(given, "name");
 
     // then
-    expect(result).toEqual("JM");
+    expect(result).toBe("JM");
   });
 
   it(`object + ["name", "age"]`, () => {

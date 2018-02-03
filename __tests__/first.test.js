@@ -9,7 +9,7 @@ describe("first", () => {
     const result = first(given);
 
     // then
-    expect(result).toEqual(5);
+    expect(result).toBe(5);
   });
 
   it(`[5, 4, 3, 2, 1] + 3`, () => {

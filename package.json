@@ -4,7 +4,7 @@
   "description": "Functional Javascript Library",
   "main": "halfway.js",
   "scripts": {
-    "test": "jest --watch",
+    "test": "jest",
     "lint": "./node_modules/.bin/eslint ."
   },
   "repository": {
