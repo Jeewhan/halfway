@@ -1,3 +1,5 @@
+// Respect Partial.js
+
 const each = require("./each");
 const map = require("./map");
 const reduce = require("./reduce");
@@ -9,6 +11,7 @@ const filter = require("./filter");
 const curryr = require("./curryr");
 const first = require("./first");
 const go = require("./go");
+const _ = require("./partial");
 
 const H = {
   each,
@@ -21,7 +24,8 @@ const H = {
   filter,
   curryr,
   first,
-  go
+  go,
+  _
 };
 
 module.exports = H;
