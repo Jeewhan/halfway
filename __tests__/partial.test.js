@@ -2,7 +2,7 @@ import _ from "../partial";
 import select from "../select";
 
 // https://github.com/joeunha/functional-js-study2/issues/5
-describe(`partail`, () => {
+describe(`partial`, () => {
   it(`object + _, "name"`, () => {
     // given
     const given = { name: "JM", age: 32, city: "busan", blood: "B" };
