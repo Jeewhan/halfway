@@ -7,6 +7,11 @@
     "test": "jest",
     "lint": "./node_modules/.bin/eslint ."
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn test && yarn lint"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Eclatant/halfway.git"
@@ -27,6 +32,7 @@
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-prettier": "^2.6.0",
+    "husky": "^0.15.0-rc.6",
     "jest": "^22.1.4",
     "prettier": "^1.10.2"
   },
