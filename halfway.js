@@ -21,6 +21,7 @@ const select = require("./object/select");
 const _ = require("./partial/partial");
 
 const go = require("./pipe/go");
+const pipe = require("./pipe/pipe");
 
 const H = {
   first,
@@ -43,7 +44,8 @@ const H = {
 
   _,
 
-  go
+  go,
+  pipe
 };
 
 module.exports = H;
