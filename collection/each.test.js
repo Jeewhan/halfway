@@ -1,4 +1,4 @@
-import each from "../each";
+import each from "./each";
 
 // http://underscorejs.org/#each
 describe(`each`, () => {

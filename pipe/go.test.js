@@ -1,9 +1,9 @@
-import go from "../go";
-import filter from "../filter";
-import select from "../select";
-import first from "../first";
-import contains from "../contains";
-import _ from "../partial";
+import go from "./go";
+import filter from "../collection/filter";
+import select from "../object/select";
+import first from "../array/first";
+import contains from "../collection/contains";
+import _ from "../partial/partial";
 
 // https://github.com/joeunha/functional-js-study2/issues/5
 describe(`go`, () => {

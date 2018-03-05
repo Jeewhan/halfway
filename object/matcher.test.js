@@ -1,5 +1,5 @@
-import matcher from "../matcher";
-import filter from "../filter";
+import matcher from "./matcher";
+import filter from "../collection/filter";
 
 // http://underscorejs.org/#filter
 describe(`matcher`, () => {

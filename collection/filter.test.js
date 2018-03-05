@@ -1,4 +1,4 @@
-import filter from "../filter";
+import filter from "./filter";
 
 // http://underscorejs.org/#filter
 describe(`filter`, () => {

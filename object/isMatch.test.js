@@ -1,4 +1,4 @@
-import isMatch from "../isMatch";
+import isMatch from "./isMatch";
 
 // http://underscorejs.org/#isMatch
 describe(`isMatch`, () => {

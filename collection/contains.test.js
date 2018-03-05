@@ -1,4 +1,4 @@
-import contains from "../contains";
+import contains from "./contains";
 
 describe(`contains`, () => {
   // http://underscorejs.org/#contains

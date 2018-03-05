@@ -1,4 +1,4 @@
-import first from "../first";
+import first from "./first";
 
 describe("first", () => {
   it(`[5, 4, 3, 2, 1]`, () => {

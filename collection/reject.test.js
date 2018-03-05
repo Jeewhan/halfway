@@ -1,4 +1,4 @@
-import reject from "../reject";
+import reject from "./reject";
 
 // http://underscorejs.org/#filter
 describe(`reject`, () => {

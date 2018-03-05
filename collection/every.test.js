@@ -1,10 +1,10 @@
-import every from "../every";
-import filter from "../filter";
-import contains from "../contains";
-import go from "../go";
-import first from "../first";
-import select from "../select";
-import _ from "../partial";
+import every from "./every";
+import filter from "./filter";
+import contains from "./contains";
+import go from "../pipe/go";
+import first from "../array/first";
+import select from "../object/select";
+import _ from "../partial/partial";
 
 describe("every", () => {
   it(`[2, 4, 5] + num % 1 === 0`, () => {

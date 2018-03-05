@@ -1,4 +1,4 @@
-import find from "../find";
+import find from "./find";
 
 describe(`find`, () => {
   // http://underscorejs.org/#find

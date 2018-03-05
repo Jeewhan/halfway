@@ -1,4 +1,4 @@
-const matcher = require("./matcher");
+const matcher = require("../object/matcher");
 
 function find(collection, predicate, fromIndex) {
   let i = fromIndex - 1 || -1;

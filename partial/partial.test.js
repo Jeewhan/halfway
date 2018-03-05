@@ -1,24 +1,27 @@
-import select from "../select";
+import _ from "./partial";
+import select from "../object/select";
 
 // https://github.com/joeunha/functional-js-study2/issues/5
-describe(`select`, () => {
-  it(`object + "name"`, () => {
+describe(`partial`, () => {
+  it(`object + _, "name"`, () => {
     // given
     const given = { name: "JM", age: 32, city: "busan", blood: "B" };
 
     // when
-    const result = select(given, "name");
+    const preparation = _(select, given, _);
+    const result = preparation("name");
 
     // then
     expect(result).toBe("JM");
   });
 
-  it(`object + ["name", "age"]`, () => {
+  it(`object + _, ["name", "age"]`, () => {
     // given
     const given = { name: "JM", age: 32, city: "busan", blood: "B" };
 
     // when
-    const result = select(given, ["name", "age"]);
+    const preparation = _(select, given, _);
+    const result = preparation(["name", "age"]);
 
     // then
     expect(result).toEqual(["JM", 32]);

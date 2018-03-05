@@ -1,31 +1,49 @@
 // Respect Partial.js
 
-const each = require("./each");
-const map = require("./map");
-const reduce = require("./reduce");
-const select = require("./select");
-const contains = require("./contains");
-const every = require("./every");
-const callr = require("./callr");
-const filter = require("./filter");
-const curryr = require("./curryr");
-const first = require("./first");
-const go = require("./go");
-const _ = require("./partial");
+const first = require("./array/first");
+
+const contains = require("./collection/contains");
+const each = require("./collection/each");
+const every = require("./collection/every");
+const filter = require("./collection/filter");
+const find = require("./collection/find");
+const map = require("./collection/map");
+const reduce = require("./collection/reduce");
+const sortBy = require("./collection/sortBy");
+
+const callr = require("./function/callr");
+const curryr = require("./function/curryr");
+
+const isMatch = require("./object/isMatch");
+const matcher = require("./object/matcher");
+const select = require("./object/select");
+
+const _ = require("./partial/partial");
+
+const go = require("./pipe/go");
 
 const H = {
+  first,
+
+  contains,
   each,
+  every,
+  filter,
+  find,
   map,
   reduce,
-  select,
-  contains,
-  every,
+  sortBy,
+
   callr,
-  filter,
   curryr,
-  first,
-  go,
-  _
+
+  isMatch,
+  matcher,
+  select,
+
+  _,
+
+  go
 };
 
 module.exports = H;
