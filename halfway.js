@@ -1,6 +1,7 @@
 // Respect Partial.js
 
 const first = require("./array/first");
+const findIndex = require("./array/findIndex");
 
 const contains = require("./collection/contains");
 const each = require("./collection/each");
@@ -26,6 +27,7 @@ const pipe = require("./pipe/pipe");
 
 const H = {
   first,
+  findIndex,
 
   contains,
   each,
