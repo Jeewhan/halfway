@@ -9,6 +9,7 @@ const filter = require("./collection/filter");
 const find = require("./collection/find");
 const map = require("./collection/map");
 const reduce = require("./collection/reduce");
+const reduceR = require("./collection/reduceR");
 const sortBy = require("./collection/sortBy");
 
 const callr = require("./function/callr");
@@ -33,6 +34,7 @@ const H = {
   find,
   map,
   reduce,
+  reduceR,
   sortBy,
 
   callr,
