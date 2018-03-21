@@ -25,6 +25,8 @@ const _ = require("./partial/partial");
 const go = require("./pipe/go");
 const pipe = require("./pipe/pipe");
 
+const hi = require("./utility/hi");
+
 const H = {
   first,
   findIndex,
@@ -49,7 +51,9 @@ const H = {
   _,
 
   go,
-  pipe
+  pipe,
+
+  hi
 };
 
 module.exports = H;

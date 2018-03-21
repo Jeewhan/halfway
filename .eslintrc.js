@@ -13,6 +13,7 @@ module.exports = {
     "no-shadow": 0,
     "no-param-reassign": 0,
     "no-plusplus": 0,
-    "consistent-return": 0
+    "consistent-return": 0,
+    "no-sequences": 0
   }
 };
