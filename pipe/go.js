@@ -1,5 +1,5 @@
-const reduce = require("../collection/reduce");
-const callr = require("../function/callr");
+import reduce from "../collection/reduce";
+import callr from "../function/callr";
 
 function go(...args) {
   return reduce(args, callr);

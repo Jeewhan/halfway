@@ -1,4 +1,4 @@
-const pipe = require("./pipe");
+import pipe from "./pipe";
 
 describe("pipe", () => {
   it("only one parameter", () => {

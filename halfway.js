@@ -1,31 +1,31 @@
 // Respect Partial.js
 
-const first = require("./array/first");
-const findIndex = require("./array/findIndex");
+import first from "./array/first";
+import findIndex from "./array/findIndex";
 
-const contains = require("./collection/contains");
-const each = require("./collection/each");
-const every = require("./collection/every");
-const filter = require("./collection/filter");
-const find = require("./collection/find");
-const map = require("./collection/map");
-const reduce = require("./collection/reduce");
-const reduceR = require("./collection/reduceR");
-const sortBy = require("./collection/sortBy");
+import contains from "./collection/contains";
+import each from "./collection/each";
+import every from "./collection/every";
+import filter from "./collection/filter";
+import find from "./collection/find";
+import map from "./collection/map";
+import reduce from "./collection/reduce";
+import reduceR from "./collection/reduceR";
+import sortBy from "./collection/sortBy";
 
-const callr = require("./function/callr");
-const curryr = require("./function/curryr");
+import callr from "./function/callr";
+import curryr from "./function/curryr";
 
-const isMatch = require("./object/isMatch");
-const matcher = require("./object/matcher");
-const select = require("./object/select");
+import isMatch from "./object/isMatch";
+import matcher from "./object/matcher";
+import select from "./object/select";
 
-const _ = require("./partial/partial");
+import _ from "./partial/partial";
 
-const go = require("./pipe/go");
-const pipe = require("./pipe/pipe");
+import go from "./pipe/go";
+import pipe from "./pipe/pipe";
 
-const hi = require("./utility/hi");
+import hi from "./utility/hi";
 
 const H = {
   first,
