@@ -13,4 +13,4 @@ function find(collection, predicate, fromIndex) {
   }
 }
 
-module.exports = find;
+export default find;

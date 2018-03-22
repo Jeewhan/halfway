@@ -13,4 +13,4 @@ function each(collection, iteratee) {
   return collection;
 }
 
-module.exports = each;
+export default each;

@@ -11,4 +11,4 @@ function every(collection, predicate) {
   return true;
 }
 
-module.exports = every;
+export default every;

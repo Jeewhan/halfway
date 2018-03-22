@@ -1,6 +1,6 @@
 {
   "name": "halfway",
-  "version": "1.0.20",
+  "version": "1.0.21",
   "description": "Functional Javascript Library",
   "main": "dist/bundle.js",
   "scripts": {
@@ -17,9 +17,7 @@
     "type": "git",
     "url": "git+https://github.com/Eclatant/halfway.git"
   },
-  "keywords": [
-    "functional library"
-  ],
+  "keywords": ["functional library"],
   "author": "jeewhan",
   "license": "MIT",
   "bugs": {
@@ -37,18 +35,13 @@
     "eslint-plugin-prettier": "^2.6.0",
     "husky": "^0.15.0-rc.6",
     "jest": "^22.1.4",
-    "prettier": "^1.10.2",
-    "webpack": "^4.2.0"
+    "prettier": "^1.10.2"
   },
   "jest": {
     "transform": {
       "^.+\\.js$": "babel-jest"
     },
-    "moduleFileExtensions": [
-      "js"
-    ],
-    "moduleDirectories": [
-      "node_modules"
-    ]
+    "moduleFileExtensions": ["js"],
+    "moduleDirectories": ["node_modules"]
   }
 }

@@ -12,4 +12,4 @@ function sortBy(collection, iteratee) {
   }
 }
 
-module.exports = sortBy;
+export default sortBy;

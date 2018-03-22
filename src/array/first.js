@@ -3,4 +3,4 @@ function first(array, n) {
   return array.slice(0, n);
 }
 
-module.exports = first;
+export default first;

@@ -5,4 +5,4 @@ function pipe(...funcs) {
   return arg => reduce(funcs, callr, arg);
 }
 
-module.exports = pipe;
+export default pipe;

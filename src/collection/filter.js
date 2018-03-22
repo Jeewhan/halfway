@@ -8,4 +8,4 @@ function filter(collection, predicate) {
   return result;
 }
 
-module.exports = filter;
+export default filter;

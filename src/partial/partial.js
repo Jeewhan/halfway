@@ -12,4 +12,4 @@ function _(func, ...args) {
   };
 }
 
-module.exports = _;
+export default _;

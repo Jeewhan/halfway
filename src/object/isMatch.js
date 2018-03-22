@@ -3,4 +3,4 @@ function isMatch(obj, condition) {
   return obj[key] === condition[key];
 }
 
-module.exports = isMatch;
+export default isMatch;

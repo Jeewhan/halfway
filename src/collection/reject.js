@@ -8,4 +8,4 @@ function reject(collection, predicate) {
   return result;
 }
 
-module.exports = reject;
+export default reject;

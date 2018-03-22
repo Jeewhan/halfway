@@ -6,4 +6,4 @@ function contains(collection, value, fromIndex) {
   return false;
 }
 
-module.exports = contains;
+export default contains;

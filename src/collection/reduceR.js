@@ -23,4 +23,4 @@ function reduceR(collection, iteratee, memo) {
   return result;
 }
 
-module.exports = reduceR;
+export default reduceR;

@@ -9,4 +9,4 @@ function matcher(attributes) {
   };
 }
 
-module.exports = matcher;
+export default matcher;

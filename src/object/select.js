@@ -11,4 +11,4 @@ function select(object, propertyName) {
   return object[propertyName];
 }
 
-module.exports = select;
+export default select;

@@ -8,4 +8,4 @@ function findIndex(array, iteratee) {
   return -1;
 }
 
-module.exports = findIndex;
+export default findIndex;

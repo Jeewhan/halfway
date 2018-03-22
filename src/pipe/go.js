@@ -5,4 +5,4 @@ function go(...args) {
   return reduce(args, callr);
 }
 
-module.exports = go;
+export default go;
