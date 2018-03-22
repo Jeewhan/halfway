@@ -1,11 +1,12 @@
 {
   "name": "halfway",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "description": "Functional Javascript Library",
-  "main": "halfway.js",
+  "main": "dist/halfway.js",
   "scripts": {
     "test": "jest",
-    "lint": "./node_modules/.bin/eslint ."
+    "lint": "./node_modules/.bin/eslint src/.",
+    "bundle": "parcel src/halfway.js"
   },
   "husky": {
     "hooks": {
@@ -34,6 +35,7 @@
     "eslint-plugin-prettier": "^2.6.0",
     "husky": "^0.15.0-rc.6",
     "jest": "^22.1.4",
+    "parcel-bundler": "^1.6.2",
     "prettier": "^1.10.2"
   },
   "jest": {

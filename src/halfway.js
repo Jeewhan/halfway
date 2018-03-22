@@ -27,7 +27,9 @@ import pipe from "./pipe/pipe";
 
 import hi from "./utility/hi";
 
-const H = {
+const root = typeof global === "object" ? global : window;
+
+root.H = {
   first,
   findIndex,
 
@@ -55,5 +57,3 @@ const H = {
 
   hi
 };
-
-module.exports = H;
