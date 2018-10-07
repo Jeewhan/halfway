@@ -17,14 +17,18 @@
     "type": "git",
     "url": "git+https://github.com/Eclatant/halfway.git"
   },
-  "keywords": ["functional library"],
+  "keywords": [
+    "functional library"
+  ],
   "author": "jeewhan",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Eclatant/halfway/issues"
   },
   "homepage": "https://github.com/Eclatant/halfway#readme",
-  "dependencies": {},
+  "dependencies": {
+    "esm": "^3.0.84"
+  },
   "devDependencies": {
     "babel-jest": "^22.1.0",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
@@ -41,7 +45,11 @@
     "transform": {
       "^.+\\.js$": "babel-jest"
     },
-    "moduleFileExtensions": ["js"],
-    "moduleDirectories": ["node_modules"]
+    "moduleFileExtensions": [
+      "js"
+    ],
+    "moduleDirectories": [
+      "node_modules"
+    ]
   }
 }
