@@ -1,12 +1,12 @@
 {
   "name": "halfway",
-  "version": "1.0.28",
+  "version": "1.0.29",
   "description": "Functional Javascript Library",
-  "main": "src/halfway.mjs",
+  "main": "index.mjs",
   "scripts": {
     "test": "jest",
     "lint": "./node_modules/.bin/eslint src/.",
-    "bundle": "webpack src/halfway.js dist/bundle.js"
+    "bundle": "webpack src/halfway.mjs dist/bundle.js"
   },
   "husky": {
     "hooks": {
