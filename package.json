@@ -1,8 +1,8 @@
 {
   "name": "halfway",
-  "version": "1.0.30",
+  "version": "1.0.31",
   "description": "Functional Javascript Library",
-  "main": "index.mjs",
+  "main": "src/halfway.mjs",
   "scripts": {
     "test": "jest",
     "lint": "./node_modules/.bin/eslint src/.",
@@ -24,9 +24,7 @@
     "url": "https://github.com/JeewhanR/halfway/issues"
   },
   "homepage": "https://github.com/JeewhanR/halfway#readme",
-  "dependencies": {
-    "esm": "^3.0.84"
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel-jest": "^22.1.0",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
