@@ -1,4 +1,4 @@
-import each from "./each";
+import each from "./each.mjs";
 
 // http://underscorejs.org/#each
 describe(`each`, () => {

@@ -1,35 +1,35 @@
 // Respect Partial.js
 
-import first from "./array/first";
-import findIndex from "./array/findIndex";
+import first from "./array/first.mjs";
+import findIndex from "./array/findIndex.mjs";
 
-import contains from "./collection/contains";
-import each from "./collection/each";
-import every from "./collection/every";
+import contains from "./collection/contains.mjs";
+import each from "./collection/each.mjs";
+import every from "./collection/every.mjs";
 import filter from "./collection/filter";
-import find from "./collection/find";
-import map from "./collection/map";
-import reduce from "./collection/reduce";
-import reduceR from "./collection/reduceR";
-import sortBy from "./collection/sortBy";
+import find from "./collection/find.mjs";
+import map from "./collection/map.mjs";
+import reduce from "./collection/reduce.mjs";
+import reduceR from "./collection/reduceR.mjs";
+import sortBy from "./collection/sortBy.mjs";
 
-import callr from "./function/callr";
-import curryr from "./function/curryr";
+import callr from "./function/callr.mjs";
+import curryr from "./function/curryr.mjs";
 
-import isMatch from "./object/isMatch";
-import matcher from "./object/matcher";
-import select from "./object/select";
+import isMatch from "./object/isMatch.mjs";
+import matcher from "./object/matcher.mjs";
+import select from "./object/select.mjs";
 
-import _ from "./partial/partial";
+import _ from "./partial/partial.mjs";
 
-import go from "./pipe/go";
-import pipe from "./pipe/pipe";
+import go from "./pipe/go.mjs";
+import pipe from "./pipe/pipe.mjs";
 
-import hi from "./utility/hi";
+import hi from "./utility/hi.mjs";
 
 // const root = typeof global === "object" ? global : window;
 
-export {
+export default {
   first,
   findIndex,
   contains,

@@ -1,4 +1,4 @@
-import select from "./select";
+import select from "./select.mjs";
 
 // https://github.com/joeunha/functional-js-study2/issues/5
 describe(`select`, () => {

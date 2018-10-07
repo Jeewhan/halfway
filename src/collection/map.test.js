@@ -1,4 +1,4 @@
-import map from "./map";
+import map from "./map.mjs";
 
 // http://underscorejs.org/#map
 describe(`map`, () => {

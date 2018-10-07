@@ -1,5 +1,5 @@
-import _ from "./partial";
-import select from "../object/select";
+import _ from "./partial.mjs";
+import select from "../object/select.mjs";
 
 // https://github.com/joeunha/functional-js-study2/issues/5
 describe(`partial`, () => {

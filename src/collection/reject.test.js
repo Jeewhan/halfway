@@ -1,4 +1,4 @@
-import reject from "./reject";
+import reject from "./reject.mjs";
 
 // http://underscorejs.org/#filter
 describe(`reject`, () => {

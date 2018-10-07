@@ -1,4 +1,4 @@
-import callr from "./callr";
+import callr from "./callr.mjs";
 
 describe(`callr`, () => {
   it(`[1, 2, 3] + console.log`, () => {

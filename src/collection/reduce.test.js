@@ -1,4 +1,4 @@
-import reduce from "./reduce";
+import reduce from "./reduce.mjs";
 
 describe(`reduce`, () => {
   // http://underscorejs.org/#reduce

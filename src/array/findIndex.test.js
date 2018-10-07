@@ -1,4 +1,4 @@
-import findIndex from "./findIndex";
+import findIndex from "./findIndex.mjs";
 
 // http://underscorejs.org/#findIndex
 describe("findIndex", () => {

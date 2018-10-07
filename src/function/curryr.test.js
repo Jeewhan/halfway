@@ -1,5 +1,5 @@
-import curryr from "./curryr";
-import filter from "../collection/filter";
+import curryr from "./curryr.mjs";
+import filter from "../collection/filter.mjs";
 
 // https://github.com/joeunha/functional-js-study2/issues/5
 describe(`curryr`, () => {

@@ -1,6 +1,6 @@
 {
   "name": "halfway",
-  "version": "1.0.29",
+  "version": "1.0.30",
   "description": "Functional Javascript Library",
   "main": "index.mjs",
   "scripts": {
@@ -41,9 +41,9 @@
   },
   "jest": {
     "transform": {
-      "^.+\\.js$": "babel-jest"
+      "^.+\\.m?js$": "babel-jest"
     },
-    "moduleFileExtensions": ["js"],
+    "moduleFileExtensions": ["js", "mjs"],
     "moduleDirectories": ["node_modules"]
   }
 }

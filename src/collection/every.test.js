@@ -1,10 +1,10 @@
-import every from "./every";
-import filter from "./filter";
-import contains from "./contains";
-import go from "../pipe/go";
-import first from "../array/first";
-import select from "../object/select";
-import _ from "../partial/partial";
+import every from "./every.mjs";
+import filter from "./filter.mjs";
+import contains from "./contains.mjs";
+import go from "../pipe/go.mjs";
+import first from "../array/first.mjs";
+import select from "../object/select.mjs";
+import _ from "../partial/partial.mjs";
 
 describe("every", () => {
   it(`[2, 4, 5] + num % 1 === 0`, () => {

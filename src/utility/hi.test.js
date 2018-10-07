@@ -1,4 +1,4 @@
-import hi from "./hi";
+import hi from "./hi.mjs";
 
 // https://marpple.github.io/partial.js/docs/#hi
 describe("hi", () => {

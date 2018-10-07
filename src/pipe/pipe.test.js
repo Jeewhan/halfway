@@ -1,4 +1,4 @@
-import pipe from "./pipe";
+import pipe from "./pipe.mjs";
 
 describe("pipe", () => {
   it("only one parameter", () => {

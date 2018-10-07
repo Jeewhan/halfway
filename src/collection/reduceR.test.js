@@ -1,4 +1,4 @@
-import reduceR from "./reduceR";
+import reduceR from "./reduceR.mjs";
 
 describe("reduceR", () => {
   it("2d Array", () => {

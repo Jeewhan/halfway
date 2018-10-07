@@ -1,4 +1,4 @@
-import isMatch from "./isMatch";
+import isMatch from "./isMatch.mjs";
 
 // http://underscorejs.org/#isMatch
 describe(`isMatch`, () => {
