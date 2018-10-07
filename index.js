@@ -1,1 +1,1 @@
-module.exports = require("esm")(module)("src/halfway.js");
+module.exports = require("esm")(module)("./src/halfway.js");

@@ -1,8 +1,8 @@
 {
   "name": "halfway",
-  "version": "1.0.24",
+  "version": "1.0.25",
   "description": "Functional Javascript Library",
-  "main": "src/halfway.js",
+  "main": "index.js",
   "scripts": {
     "test": "jest",
     "lint": "./node_modules/.bin/eslint src/.",
