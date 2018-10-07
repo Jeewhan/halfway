@@ -27,12 +27,11 @@ import pipe from "./pipe/pipe";
 
 import hi from "./utility/hi";
 
-const root = typeof global === "object" ? global : window;
+// const root = typeof global === "object" ? global : window;
 
-root.H = {
+export {
   first,
   findIndex,
-
   contains,
   each,
   every,
@@ -42,18 +41,13 @@ root.H = {
   reduce,
   reduceR,
   sortBy,
-
   callr,
   curryr,
-
   isMatch,
   matcher,
   select,
-
   _,
-
   go,
   pipe,
-
   hi
 };

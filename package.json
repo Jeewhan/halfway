@@ -1,6 +1,6 @@
 {
   "name": "halfway",
-  "version": "1.0.25",
+  "version": "1.0.26",
   "description": "Functional Javascript Library",
   "main": "index.js",
   "scripts": {
