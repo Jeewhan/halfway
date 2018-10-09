@@ -12,9 +12,9 @@ describe(`each`, () => {
     each(given, log);
 
     // then
-    expect(log).toHaveBeenCalledWith(given[0], "0", given);
-    expect(log).toHaveBeenCalledWith(given[1], "1", given);
-    expect(log).toHaveBeenCalledWith(given[2], "2", given);
+    expect(log).toHaveBeenCalledWith(given[0], 0, given);
+    expect(log).toHaveBeenCalledWith(given[1], 1, given);
+    expect(log).toHaveBeenCalledWith(given[2], 2, given);
   });
 
   it(`{one: 1, two: 2, three: 3}`, () => {
