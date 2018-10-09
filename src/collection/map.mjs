@@ -1,3 +1,5 @@
+import curryr from "../function/curryr.mjs";
+
 function map(collection, mapper) {
   let i = -1;
   const result = [];
@@ -15,4 +17,4 @@ function map(collection, mapper) {
   return result;
 }
 
-export default map;
+export default curryr(map);
