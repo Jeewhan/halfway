@@ -2,7 +2,7 @@ import map from "./map.mjs";
 
 // http://underscorejs.org/#map
 describe(`map`, () => {
-  it(`[1, 2, 3] + num => num * 3`, () => {
+  test(`[1, 2, 3] + num => num * 3`, () => {
     // given
     const given = [1, 2, 3];
     const func = num => num * 3;
@@ -16,7 +16,7 @@ describe(`map`, () => {
     expect(result).toEqual([3, 6, 9]);
   });
 
-  it(`{one: 1, two: 2, three: 3} + (num, key) => num * 3`, () => {
+  test(`{one: 1, two: 2, three: 3} + (num, key) => num * 3`, () => {
     // given
     const given = { one: 1, two: 2, three: 3 };
     const func = num => num * 3;

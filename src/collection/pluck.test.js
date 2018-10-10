@@ -1,7 +1,7 @@
 import pluck from "./pluck.mjs";
 
 describe("pluck", () => {
-  it("name", () => {
+  test("name", () => {
     // given
     const given = [
       { id: 1, name: "ID", age: 36 },

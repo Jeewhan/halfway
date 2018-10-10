@@ -1,7 +1,7 @@
 import callr from "./callr.mjs";
 
 describe(`callr`, () => {
-  it(`[1, 2, 3] + console.log`, () => {
+  test(`[1, 2, 3] + console.log`, () => {
     const log = jest.spyOn(console, `log`);
 
     // given

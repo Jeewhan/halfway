@@ -2,7 +2,7 @@ import find from "./find.mjs";
 
 describe(`find`, () => {
   // http://underscorejs.org/#find
-  it(`[1, 2, 3, 4, 5, 6] + num => num % 2 === 0`, () => {
+  test(`[1, 2, 3, 4, 5, 6] + num => num % 2 === 0`, () => {
     // given
     const given = [1, 2, 3, 4, 5, 6];
     const func = num => num % 2 === 0;
@@ -25,7 +25,7 @@ describe(`find`, () => {
   });
 
   // https://lodash.com/docs/4.17.4#find
-  it(`Array + ({ age }) => age < 40`, () => {
+  test(`Array + ({ age }) => age < 40`, () => {
     // given
     // users
 
@@ -36,7 +36,7 @@ describe(`find`, () => {
     expect(result1).toEqual({ user: "barney", age: 36, active: true });
   });
 
-  it(`Array + Object`, () => {
+  test(`Array + Object`, () => {
     // given
     // users
 

@@ -2,7 +2,7 @@ import contains from "./contains.mjs";
 
 describe(`contains`, () => {
   // http://underscorejs.org/#contains
-  it(`[1, 2, 3] + find 3`, () => {
+  test(`[1, 2, 3] + find 3`, () => {
     // given
     const given = [1, 2, 3];
     const findValue = 3;
@@ -14,7 +14,7 @@ describe(`contains`, () => {
     expect(result).toBe(true);
   });
 
-  it(`[1, 2, 3] + find 1 + fromIndex 0`, () => {
+  test(`[1, 2, 3] + find 1 + fromIndex 0`, () => {
     // given
     const given = [1, 2, 3];
     const findValue = 1;
@@ -27,7 +27,7 @@ describe(`contains`, () => {
     expect(result).toBe(true);
   });
 
-  it(`[1, 2, 3] + find 1 + fromIndex 1`, () => {
+  test(`[1, 2, 3] + find 1 + fromIndex 1`, () => {
     // given
     const given = [1, 2, 3];
     const findValue = 1;

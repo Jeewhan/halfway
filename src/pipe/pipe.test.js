@@ -1,7 +1,7 @@
 import pipe from "./pipe.mjs";
 
 describe("pipe", () => {
-  it("only one parameter", () => {
+  test("only one parameter", () => {
     // given
     const add10 = num => num + 10;
     const add30 = pipe(add10, add10, add10);

@@ -8,7 +8,7 @@ describe("get", () => {
     given = { id: 1, name: "ID", age: 36 };
   });
 
-  it("2 parameter", () => {
+  test("2 parameter", () => {
     // when
     const result = get(given, "age");
 
@@ -16,7 +16,7 @@ describe("get", () => {
     expect(result).toBe(36);
   });
 
-  it("curryr", () => {
+  test("curryr", () => {
     // when
     const result = get("age")(given);
 

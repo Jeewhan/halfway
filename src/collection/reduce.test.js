@@ -2,7 +2,7 @@ import reduce from "./reduce.mjs";
 
 describe(`reduce`, () => {
   // http://underscorejs.org/#reduce
-  it(`[1, 2, 3] + subtotal`, () => {
+  test(`[1, 2, 3] + subtotal`, () => {
     // given
     const given = [1, 2, 3];
     const initValue = 0;
@@ -15,7 +15,7 @@ describe(`reduce`, () => {
   });
 
   // https://lodash.com/docs/4.17.4#reduce
-  it(`{ 'a': 1, 'b': 2, 'c': 1 } + extract by key`, () => {
+  test(`{ 'a': 1, 'b': 2, 'c': 1 } + extract by key`, () => {
     // given
     const given = { a: 1, b: 2, c: 1 };
     const initValue = {};

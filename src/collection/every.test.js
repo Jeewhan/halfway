@@ -7,7 +7,7 @@ import select from "../object/select.mjs";
 import _ from "../partial/partial.mjs";
 
 describe("every", () => {
-  it(`[2, 4, 5] + num % 1 === 0`, () => {
+  test(`[2, 4, 5] + num % 1 === 0`, () => {
     // given
     const given = [2, 4, 5];
     const func = num => num % 1 === 0;
@@ -20,7 +20,7 @@ describe("every", () => {
   });
 
   // http://underscorejs.org/#every
-  it(`[2, 4, 5] + num % 2 === 0`, () => {
+  test(`[2, 4, 5] + num % 2 === 0`, () => {
     // given
     const given = [2, 4, 5];
     const func = num => num % 2 === 0;
@@ -34,7 +34,7 @@ describe("every", () => {
 
   // https://github.com/joeunha/functional-js-study2/issues/5
   // 도시(city) / 나이(age) / 혈액형(blood)을 배열로 넣으면 해당하는 사람을 찾는 user_filter 함수 완성하기
-  it(`user_filter function`, () => {
+  test(`user_filter function`, () => {
     // given
     const users = [
       { name: "ID", age: 32, city: "seoul", blood: "A" },

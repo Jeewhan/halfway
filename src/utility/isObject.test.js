@@ -1,7 +1,7 @@
 import isObject from "./isObject.mjs";
 
 describe("isObject", () => {
-  it("object", () => {
+  test("object", () => {
     // given
     const given = { name: "tester" };
 
@@ -12,7 +12,7 @@ describe("isObject", () => {
     expect(result).toBe(true);
   });
 
-  it("array", () => {
+  test("array", () => {
     // given
     const given = [1, 2, 3];
 
@@ -23,7 +23,7 @@ describe("isObject", () => {
     expect(result).toBe(true);
   });
 
-  it("null", () => {
+  test("null", () => {
     // given
     const given = null;
 
@@ -34,7 +34,7 @@ describe("isObject", () => {
     expect(result).toBe(false);
   });
 
-  it("undefined", () => {
+  test("undefined", () => {
     // given
     const given = undefined;
 
@@ -45,7 +45,7 @@ describe("isObject", () => {
     expect(result).toBe(false);
   });
 
-  it("boolean", () => {
+  test("boolean", () => {
     // given
     const given = true;
 
@@ -56,7 +56,7 @@ describe("isObject", () => {
     expect(result).toBe(false);
   });
 
-  it("string", () => {
+  test("string", () => {
     // given
     const given = "test";
 

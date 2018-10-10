@@ -1,7 +1,7 @@
 import keys from "./keys.mjs";
 
 describe("keys", () => {
-  it("object", () => {
+  test("object", () => {
     // given
     const given = { name: "tester" };
 
@@ -12,7 +12,7 @@ describe("keys", () => {
     expect(result).toEqual(["name"]);
   });
 
-  it("array", () => {
+  test("array", () => {
     // given
     const given = [1, 2, 3];
 
@@ -23,7 +23,7 @@ describe("keys", () => {
     expect(result).toEqual(["0", "1", "2"]);
   });
 
-  it("null", () => {
+  test("null", () => {
     // given
     const given = null;
 
@@ -34,7 +34,7 @@ describe("keys", () => {
     expect(result).toEqual([]);
   });
 
-  it("undefined", () => {
+  test("undefined", () => {
     // given
     const given = undefined;
 
@@ -45,7 +45,7 @@ describe("keys", () => {
     expect(result).toEqual([]);
   });
 
-  it("boolean", () => {
+  test("boolean", () => {
     // given
     const given = true;
 
@@ -56,7 +56,7 @@ describe("keys", () => {
     expect(result).toEqual([]);
   });
 
-  it("string", () => {
+  test("string", () => {
     // given
     const given = "test";
 

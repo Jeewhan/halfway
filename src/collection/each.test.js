@@ -4,7 +4,7 @@ import each from "./each.mjs";
 describe(`each`, () => {
   const log = jest.spyOn(console, `log`);
 
-  it(`[1, 2, 3] + console.log`, () => {
+  test(`[1, 2, 3] + console.log`, () => {
     // given
     const given = [1, 2, 3];
 
@@ -17,7 +17,7 @@ describe(`each`, () => {
     expect(log).toHaveBeenCalledWith(given[2], 2, given);
   });
 
-  it(`{one: 1, two: 2, three: 3}`, () => {
+  test(`{one: 1, two: 2, three: 3}`, () => {
     // given
     const given = { one: 1, two: 2, three: 3 };
 

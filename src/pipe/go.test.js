@@ -25,7 +25,7 @@ describe(`go`, () => {
   });
 
   // 성남시민 중에서 27세이면서 O형인 사람의 이름 ('JE')
-  it(`users + condition`, () => {
+  test(`users + condition`, () => {
     // given
     // users
 
@@ -44,7 +44,7 @@ describe(`go`, () => {
   });
 
   // 부산과 서울시민 중에서 32세이면서 A형인 사람의 이름 ('ID')
-  it(`users + condition`, () => {
+  test(`users + condition`, () => {
     // given
     // users
 

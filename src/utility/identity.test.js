@@ -1,7 +1,7 @@
 import identity from "./identity.mjs";
 
 describe("identity", () => {
-  it("through", () => {
+  test("through", () => {
     // given
     const given = 1010;
 

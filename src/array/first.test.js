@@ -1,7 +1,7 @@
 import first from "./first.mjs";
 
 describe("first", () => {
-  it(`[5, 4, 3, 2, 1]`, () => {
+  test(`[5, 4, 3, 2, 1]`, () => {
     // given
     const given = [5, 4, 3, 2, 1];
 
@@ -12,7 +12,7 @@ describe("first", () => {
     expect(result).toBe(5);
   });
 
-  it(`[5, 4, 3, 2, 1] + 3`, () => {
+  test(`[5, 4, 3, 2, 1] + 3`, () => {
     // given
     const given = [5, 4, 3, 2, 1];
     const n = 3;

@@ -2,7 +2,7 @@ import negate from "./negate.mjs";
 import identity from "./identity.mjs";
 
 describe("negate", () => {
-  it("truthy -> falsy", () => {
+  test("truthy -> falsy", () => {
     // given
     const given = 1;
 
@@ -13,7 +13,7 @@ describe("negate", () => {
     expect(result).toBe(false);
   });
 
-  it("falsy -> truthy", () => {
+  test("falsy -> truthy", () => {
     // given
     const given = null;
 

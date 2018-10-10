@@ -2,7 +2,7 @@ import sortBy from "./sortBy.mjs";
 
 // http://underscorejs.org/#sortBy
 describe(`sortBy`, () => {
-  it(`[1, 2, 3, 4, 5, 6] + Math.sin`, () => {
+  test(`[1, 2, 3, 4, 5, 6] + Math.sin`, () => {
     // given
     const given = [1, 2, 3, 4, 5, 6];
 
@@ -13,7 +13,7 @@ describe(`sortBy`, () => {
     expect(result).toEqual([5, 4, 6, 3, 1, 2]);
   });
 
-  it(`Array + key`, () => {
+  test(`Array + key`, () => {
     // given
     const stooges = [
       { name: "moe", age: 40 },

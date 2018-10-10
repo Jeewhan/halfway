@@ -3,7 +3,7 @@ import select from "../object/select.mjs";
 
 // https://github.com/joeunha/functional-js-study2/issues/5
 describe(`partial`, () => {
-  it(`object + _, "name"`, () => {
+  test(`object + _, "name"`, () => {
     // given
     const given = { name: "JM", age: 32, city: "busan", blood: "B" };
 
@@ -15,7 +15,7 @@ describe(`partial`, () => {
     expect(result).toBe("JM");
   });
 
-  it(`object + _, ["name", "age"]`, () => {
+  test(`object + _, ["name", "age"]`, () => {
     // given
     const given = { name: "JM", age: 32, city: "busan", blood: "B" };
 

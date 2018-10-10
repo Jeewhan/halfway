@@ -2,7 +2,7 @@ import reject from "./reject.mjs";
 
 // http://underscorejs.org/#filter
 describe(`reject`, () => {
-  it(`[1, 2, 3, 4, 5, 6] + num => num % 2 === 0`, () => {
+  test(`[1, 2, 3, 4, 5, 6] + num => num % 2 === 0`, () => {
     // given
     const given = [1, 2, 3, 4, 5, 6];
 

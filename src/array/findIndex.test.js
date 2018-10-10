@@ -16,7 +16,7 @@ describe("findIndex", () => {
     };
   });
 
-  it("[4, 6, 8, 12] + isPrime", () => {
+  test("[4, 6, 8, 12] + isPrime", () => {
     // given
     const given = [4, 6, 8, 12];
 
@@ -27,7 +27,7 @@ describe("findIndex", () => {
     expect(result).toBe(-1);
   });
 
-  it("[4, 6, 7, 12] + isPrime", () => {
+  test("[4, 6, 7, 12] + isPrime", () => {
     // given
     const given = [4, 6, 7, 12];
 

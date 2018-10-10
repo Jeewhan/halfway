@@ -2,7 +2,7 @@ import values from "./values.mjs";
 import map from "./map.mjs";
 
 describe("values", () => {
-  it("array", () => {
+  test("array", () => {
     // given
     const given = [1, 3, 5, 7, 9];
 
@@ -13,7 +13,7 @@ describe("values", () => {
     expect(result).toEqual([1, 3, 5, 7, 9]);
   });
 
-  it("object", () => {
+  test("object", () => {
     // given
     const given = [
       { id: 1, name: "ID", age: 36 },
@@ -33,7 +33,7 @@ describe("values", () => {
     expect(result).toEqual([1, "ID", 36]);
   });
 
-  it("object + map", () => {
+  test("object + map", () => {
     // given
     const given = [
       { id: 1, name: "ID", age: 36 },
