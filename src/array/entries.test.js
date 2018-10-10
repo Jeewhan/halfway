@@ -6,7 +6,7 @@ describe("entries", () => {
     const given = ["a", "b", "c"];
 
     // when
-    const result = entries(given);
+    const result = entries(given)[Symbol.iterator]();
 
     // then
     expect(result.next().value).toEqual(["a", 0]);
