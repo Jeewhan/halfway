@@ -1,5 +1,6 @@
 import keys from "../utility/keys.mjs";
 import entries from "../array/entries.mjs";
+import curryr from "../function/curryr.mjs";
 
 function findIndex(list, iteratee) {
   for (const [k, i] of entries(keys(list))) {
@@ -8,4 +9,4 @@ function findIndex(list, iteratee) {
   return -1;
 }
 
-export default findIndex;
+export default curryr(findIndex);
