@@ -1,10 +1,9 @@
-import keys from "../utility/keys.mjs";
-import entries from "../array/entries.mjs";
 import curryr from "../function/curryr.mjs";
 
 function findIndex(list, iteratee) {
-  for (const [k, i] of entries(keys(list))) {
-    if (iteratee(list[k], k, list)) return i;
+  let i = -1;
+  while (++i < list.length) {
+    if (iteratee(list[i], i, list)) return i;
   }
   return -1;
 }
