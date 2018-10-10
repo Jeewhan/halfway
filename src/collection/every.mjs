@@ -1,14 +1,9 @@
+import findIndex from "../array/findIndex.mjs";
+import negate from "../utility/negate.mjs";
+import identity from "../utility/identity.mjs";
+
 function every(collection, predicate) {
-  const len = collection.length;
-  let i = -1;
-
-  if (predicate === undefined) {
-    while (++i < len) if (collection[i] === false) return false;
-  } else {
-    while (++i < len) if (predicate(collection[i]) === false) return false;
-  }
-
-  return true;
+  return findIndex(collection, negate(predicate || identity)) == -1;
 }
 
 export default every;
