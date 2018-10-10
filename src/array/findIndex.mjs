@@ -1,10 +1,10 @@
-function findIndex(array, iteratee) {
-  let i = -1;
+import keys from "../utility/keys.mjs";
+import entries from "../array/entries.mjs";
 
-  while (++i < array.length) {
-    if (iteratee(array[i], i, array)) return i;
+function findIndex(list, iteratee) {
+  for (const [k, i] of entries(keys(list))) {
+    if (iteratee(list[k], k, list)) return i;
   }
-
   return -1;
 }
 
