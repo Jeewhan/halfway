@@ -1,3 +1,5 @@
+import curryr from "../function/curryr";
+
 function filter(collection, predicate) {
   let i = -1;
   const len = collection.length;
@@ -8,4 +10,4 @@ function filter(collection, predicate) {
   return result;
 }
 
-export default filter;
+export default curryr(filter);
